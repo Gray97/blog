@@ -10,12 +10,11 @@ menu:
 TOC: false
 
 # 是否自动播放音乐
-autoplay: false
+autoplay: true
 
 # 默认音乐（随机播放）
 mp3: 
-    - http://link.hhtjim.com/163/425570952.mp3
-    - http://link.hhtjim.com/163/425570952.mp3
+    - https://music.163.com/#/playlist?id=18309787841
 
 # 首页封面图, 为空时取文章的cover作为封面(注意跨域问题,建议使用同源图片)
 welcome_cover: /img/welcome-cover.jpg
@@ -27,7 +26,7 @@ cover:
 
 # 是否显示Twitter分享卡片图像(图像尺寸要求：1200*600，creatorid不需要带@符号。注意：链接必须是完整url，否则Twitter将无法读取图片信息）
 twitterpic:
-  enable: false
+  enable: true
   src: https://bangdream.moe/img/ident.png
   creatorid: yourtwitteridhere
 
@@ -52,18 +51,18 @@ links:
     twitter: /
     github: /
     wechat: /img/logo.png
-    email: mailto:xxxx@gmail.com
+    email: mailto:walter97@foxmail.com
   
 # 备案
 beian: 
     # 是否显示备案信息
     enable: true
     # 是否在主页面最底下显示备案信息(虽然丑，但是完全满足规定要求)
-    enableFooter: false
+    enableFooter: true
     # 备案号
-    beianInfo: 冀ICP备xxxxxxx号
+    beianInfo: 萌ICP备20260567号
     # 链接地址
-    link: http://www.beian.miit.gov.cn
+    link: https://icp.gov.moe/?keyword=20260567
 
 # Gitalk 评论插件（https://github.com/gitalk/gitalk）
 gitalk:
@@ -87,7 +86,7 @@ gitalk:
     distractionFreeMode: false
 
 # 网站关键字
-keywords: Fechin
+keywords: 伍六七
 
 # 要使用google_analytics进行统计的话，这里需要配置ID
 google_analytics: 
