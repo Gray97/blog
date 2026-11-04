@@ -1,5 +1,5 @@
 ---
-title: 'hello world'
+title: 'hello，新博客'
 date: 2026-10-19 00:00:00
 ---
 请你删掉这篇默认文章
