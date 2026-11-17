@@ -393,7 +393,7 @@ pre .keyword,pre .javascript .function {color:#cc99cc;}
 }
 /* 菜单打开（body.mu）：换回关闭图标，清除logo背景 */
 body.mu .icon-menu.switchmenu {
-  font-size: 90px !important;
+  font-size: 70px !important;
   background: transparent !important;
   padding: 6px 6px 5px !important;
 }
