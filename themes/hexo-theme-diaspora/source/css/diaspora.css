@@ -378,3 +378,27 @@ pre .keyword,pre .javascript .function {color:#cc99cc;}
   .article .side {display:none}
   .comment .gt-btn-public .gt-btn-text:after{content:"";}
 }
+/* 默认：显示logo，隐藏伪元素叉号/汉堡 */
+.icon-menu.switchmenu {
+  font-size: 0 !important;
+  width: 32px;
+  height: 32px;
+  padding: 0 !important;
+  background: url("/img/logo.png") center / contain no-repeat rgba(255,255,255,.9) !important;
+}
+.icon-menu.switchmenu::before {
+  display: none !important;
+}
+
+/* 菜单打开（body.mu）：换回关闭图标，清除logo背景 */
+body.mu .icon-menu.switchmenu {
+  font-size: 20px !important;
+  background: transparent !important;
+  padding: 6px 6px 5px !important;
+}
+body.mu .icon-menu.switchmenu::before {
+  display: block !important;
+  content: "\e689";
+  font-family: "iconfont";
+  color: #333;
+}
